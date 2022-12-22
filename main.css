@@ -50,7 +50,7 @@ h1 {
   margin: 20px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.678);
   color: aliceblue;
