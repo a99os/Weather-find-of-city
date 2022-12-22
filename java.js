@@ -5,7 +5,7 @@ function start() {
     const options1 = {
       method: "GET",
       url: "https://bing-image-search1.p.rapidapi.com/images/search",
-      params: { q: inp.value || "Parkent" },
+      params: { q: inp.value || "Toshkent" },
       headers: {
         "X-RapidAPI-Key": "cda58c044dmsh66a8bef91eeb5a7p170cc5jsn5bb62be3887e",
         "X-RapidAPI-Host": "bing-image-search1.p.rapidapi.com",
@@ -26,7 +26,7 @@ function start() {
 
     const result = await axios.get(
       `http://api.openweathermap.org/geo/1.0/direct?q=${
-        inp.value || "Parkent"
+        inp.value || "Toshkent"
       }&limit=5&appid=aebc0727af6a8a074ee515ceece1c736`
     );
     const options = {
