@@ -1,0 +1,76 @@
+.inp {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: rgb(85, 85, 85);
+  background-size: 100%;
+}
+#example {
+  width: 300px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 0px;
+  padding-left: 30px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(249, 252, 255, 0.671);
+}
+.btn:hover {
+  background-color: rgba(229, 233, 23, 0.705);
+}
+.btn:active {
+  background-color: rgba(23, 233, 86, 0.705);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#hour {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  color: aliceblue;
+}
+#days {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  color: aliceblue;
+}
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+h4 {
+  color: chartreuse;
+}
+h3 {
+  color: crimson;
+}
+p {
+  color: yellow;
+}
+#bir {
+  padding: 3px;
+}
