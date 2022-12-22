@@ -12,7 +12,7 @@ function start() {
       },
     };
 
-    axios
+    await axios
       .request(options1)
       .then(function (response) {
         console.log(response.data);
