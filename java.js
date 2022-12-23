@@ -15,7 +15,7 @@ function start() {
     await axios
       .request(options1)
       .then(function (response) {
-        console.log(response.data);
+        // console.log(response.data);
         document.body.style.backgroundImage = `url('${
           response.data.value[Math.floor(Math.random() * 15)].contentUrl
         }')`;
@@ -72,9 +72,9 @@ function start() {
       }
       count++;
     }
-    console.log(Metadata);
-    console.log(Metadata.days[0].wheather);
-    console.log(inp.value);
+    // console.log(Metadata);
+    // console.log(Metadata.days[0].wheather);
+    // console.log(inp.value);
     let h1 = "";
     Metadata.lang.english ? (h1 += Metadata.lang.english + " ") : null;
     Metadata.lang.russian ? (h1 += Metadata.lang.russian + " ") : null;
@@ -93,7 +93,7 @@ function start() {
       }@2x.png" alt="" />
     </div>`;
     }
-    console.log(str);
+    // console.log(str);
     document.getElementById("hour").innerHTML = str;
     let days = "";
     for (const val of Metadata.days) {
